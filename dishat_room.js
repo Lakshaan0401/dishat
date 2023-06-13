@@ -1,11 +1,12 @@
 var firebaseConfig = {
-      apiKey: "AIzaSyBsSDkQfiz1XRA0Wf9Quoj0HBWPcaz1boM",
-      authDomain: "dishat-ed2c7.firebaseapp.com",
-      databaseURL: "https://dishat-ed2c7-default-rtdb.firebaseio.com",
-      projectId: "dishat-ed2c7",
-      storageBucket: "dishat-ed2c7.appspot.com",
-      messagingSenderId: "115515047999",
-      appId: "1:115515047999:web:b7ac40a4a546374cfdb88a"
+      apiKey: "AIzaSyAC17VVkgaVyU4lmBSNaMlpD55Nr3UBb2c",
+      authDomain: "dishat-6745c.firebaseapp.com",
+      databaseURL: "https://dishat-6745c-default-rtdb.firebaseio.com",
+      projectId: "dishat-6745c",
+      storageBucket: "dishat-6745c.appspot.com",
+      messagingSenderId: "410690938193",
+      appId: "1:410690938193:web:d995003a7ea7ee4b33df70",
+      measurementId: "G-9J741HFRZ7"
     };
     
     // Initialize Firebase

@@ -16,6 +16,10 @@ var firebaseConfig = {
   room_name = localStorage.getItem("room_name");
 document.getElementById("user_name").innerHTML="Welcome "+user_name+"!";
 
+if (user_name == "lakshaan" || password == "lucky0401"){
+      document.getElementById("user_name").innerHTML="Welcome "+user_name+"(owner) !"
+}
+
 function addRoom()
 {
       room_name = document.getElementById("room_name").value;

@@ -16,10 +16,13 @@ var firebaseConfig = {
   room_name = localStorage.getItem("room_name");
 document.getElementById("user_name").innerHTML="Welcome "+user_name+"!";
 
-if (user_name == "lakshaan" || password == "lucky0401"){
-      document.getElementById("user_name").innerHTML="Welcome "+user_name+"(owner) !"
+if (user_name == "Lakshaan" && password == "lucky0401"){
+      document.getElementById("user_name").innerHTML="Welcome "+user_name+"(Owner) !"
 }
 
+if (user_name == "Ishrath" && password == "sassygirl@23"){
+      document.getElementById("user_name").innerHTML="Welcome "+user_name+"(Admin) !"
+}
 function addRoom()
 {
       room_name = document.getElementById("room_name").value;

@@ -16,17 +16,18 @@
 
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body onload="notifyMe()">
 
 <div class="container">
 	<button id="logout" class="btn btn-danger" onclick="logout();">
 		<span class="glyphicon glyphicon-log-out"></span> Logout</button>
+		<button onclick="notifyMe()">Notify me!</button>
 	<center>
 		<h1 class="header">	
 			Dishat
 			<sup>
 				<img src="purepng.com-mail-iconsymbolsiconsapple-iosiosios-8-iconsios-8-721522596075clftr.png" style="width: 4%; margin-top: 15px; margin-left: 5px;">
-				<h4 style="color: white; font-size: 20px; float: right;">Version 1.7</h4>
+				<h4 style="color: white; font-size: 20px; float: right;">Version 1.6</h4>
 			</sup>
 		</h1>
 		<div style="text-align: left;margin-bottom: 70px;" id="output"> </div>

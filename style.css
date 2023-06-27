@@ -5,11 +5,23 @@ html, body
   font-family: 'Poppins', sans-serif;
 }
 
-body
-{
-   background-image: linear-gradient(120deg,#3e32a8,#e310c7);
-   font-family: 'Poppins', sans-serif;
+@keyframes color {
+	0%   { background: #af38fe; }
+	20%  { background: #f880d2; }
+	40%  { background: #524381; }
+	60%  { background: #348456; }
+	80%  { background: #7dff7f; }
+	100% { background: #6c7eaa; }
 }
+
+body {
+  background: #33CCCC; /* Fallback */
+  animation: color 9s infinite linear;
+  text-align: center;
+  padding: 2em;
+  font-family: 'Poppins', sans-serif;
+}
+   
 
 .header
 {

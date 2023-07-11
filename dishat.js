@@ -3,7 +3,10 @@ function login(){
     password = document.getElementById("password").value;
     localStorage.setItem("user_name",user_name);
     localStorage.setItem("password",password);
-    let showPasswordBtn = document.querySelector('.show-password');
+    window.location = "dishat_room.html";
+}
+
+let showPasswordBtn = document.querySelector('.show-password');
 let passwordInp = document.querySelector('.password-input');
 
 showPasswordBtn.addEventListener('click', () => {
@@ -13,8 +16,6 @@ showPasswordBtn.addEventListener('click', () => {
     passwordInp.type = passwordInp.type === 'password' ? 'text' : 'password';
 
 })
-    window.location = "dishat_room.html";
-}
 
 function signup(){
     window.location = "signup.html";

@@ -173,14 +173,3 @@ body {
     color: #922037;
 }
 
-.password-checklist{ 
-    opacity: 0;
-    pointer-events: none;
-    transform: translateY(20px);
-    transition: .5s ease;
-}
-
-.password-input:focus ~ .password-checklist{
-    opacity: 1;
-    transform: translateY(0);
-}
